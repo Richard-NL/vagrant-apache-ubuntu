@@ -7,7 +7,7 @@
   apt_repository: repo='{{ mongodb_repository }}' update_cache=yes
 
 - name: Locale fix to prevent error on install pt1
-  command: "locale-gen en_US en_US.UTF-8 nl_NL nl_NL.UTF-8"
+  command: "locale-gen en_US en_US.UTF-8 nl_NL nl_NL.UTF-8 pl_PL pl_PL.UTF-8"
   sudo: yes
 
 - name: Locale fix to prevent error on install pt2
