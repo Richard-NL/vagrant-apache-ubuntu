@@ -13,6 +13,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.provision "ansible" do |ansible|
     ansible.playbook = "playbooks/playbook.yml"
-    #config.vm.synced_folder "workspace/", "/home/vagrant/workspace"
+    config.vm.synced_folder "workspace/", "/home/vagrant/workspace"
+
+    ansible.sudo = true
+    ansible.host_key_checking = false
+    ansible.extra_vars = { ansible_ssh_user: 'vagrant',ansible_connection: 'ssh',ansible_ssh_args: '-o ForwardAgent=yes'}
   end
 end
