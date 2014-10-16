@@ -1,0 +1,160 @@
+
+
+body {
+    color: #333333;
+    font-size: 62.5%;
+    line-height: 1.5;
+}
+
+p {
+    margin: 0 0 1em 0;
+}
+
+input {
+    margin: 0;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    cursor: pointer;
+}
+
+.intro ul,
+.text ul,
+.person ul,
+.module_personengids.detail ul {
+    margin-bottom: 1em;
+}
+
+.local ul,
+.central ul,
+.above ul,
+.item_intro ul,
+.product_text ul,
+ul.bullets,
+.intro ul,
+.text ul,
+.person ul,
+.wysiwyg ul,
+#wysiwyg_wide ul,
+.koppelbox ul,
+#footer ul {
+    list-style: disc;
+    margin-left: 1.4em;
+    margin-bottom: 1em;
+}
+
+ul > li > ul,
+#wysiwyg_wide ul > li > ul,
+.wysiwyg ul > li > ul,
+#content ul > li > ul {
+    margin-bottom: 0;
+}
+
+ol {
+    margin: 0 0 1em 0;
+    list-style-type: decimal;
+    margin-left: 2em;
+}
+
+.skiplinks {
+    position: absolute;
+    top: -9999px;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+img.left,
+.thumbnail.left {
+    margin-right: 1em;
+}
+
+img.right,
+.thumbnail.right {
+    margin-left: 1em;
+}
+
+ul li.item {
+    overflow: visible;
+}
+
+ul.items.bullets {
+    margin-left: 0;
+}
+
+ul.items.bullets > li {
+    margin-left: 0;
+    list-style: none;
+    background: url(../images/bullet_klein.png) no-repeat left 3px;
+    padding-left: 1.5em;
+}
+
+/* Tables */
+
+.intro table,
+.text table,
+.wysiwyg table {
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+ 
+.intro table td,
+.text table td,
+.wysiwyg table td,
+.intro table th,
+.text table th,
+.wysiwyg table th {
+    border: 1px solid;
+    padding: 4px 8px;
+}
+ 
+.intro table caption,
+.text table caption,
+.wysiwyg table caption,
+.intro table th,
+.text table th,
+.wysiwyg table th {
+    text-align: left;
+}
+ 
+.intro table caption,
+.text table caption,
+.wysiwyg table caption {
+    margin-bottom: 0.4em;
+    font-style: italic;
+}
+
+.vergunning_detail table{
+    width: 100%;
+}
+
+.vergunning_detail table caption{
+    margin-top: 10px;
+    text-align: left;
+    min-width: inherit;
+    line-height: 36px;
+    font-weight: bolder;
+    font-size: 16px;
+    background-color: #cccccc;
+}
+
+.vergunning_detail table span{
+    margin-left: 5px;
+    padding: 5px;
+    padding-bottom: 11px;
+    background-color: #ffffff;
+}
+
+#vergunningen h2{
+    margin-top: 10px;
+}
+
+#vergunningen th,
+#vergunningen td{
+    text-align: left;
+}
