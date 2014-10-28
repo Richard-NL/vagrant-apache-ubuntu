@@ -10,3 +10,4 @@
    - geerlingguy.composer
    - mbasanta.pip
    - lesmyrmidons.mongodb
+   - ansible-role-phpmyadmin
