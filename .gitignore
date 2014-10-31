@@ -1,2 +1,4 @@
 .vagrant
-/nbproject
+.idea
+nbproject
+workspace
